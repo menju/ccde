@@ -2,9 +2,8 @@
 
 The next table summarizes the major differences between two L2 VPN VPLS solutions: AToM and L2TPv3.
 
-![l2vpn-tree][logo]
 
-[logo]:images/atom-vs-l2tpv3-map.png
+<p align="center"> <img alt= "AToM vs L2TPv3" src="images/atom-vs-l2tpv3-map.png" width=60% align="center" /> </p>
 
 
 | | AToM | L2TPv3 |
