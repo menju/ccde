@@ -4,5 +4,11 @@ This repository contains a work in progress to cover some of the CCDE exam topic
 
 ## VPN
 
-* AToM vs L2TPv3
+* [AToM vs L2TPv3][1]
 * L2TPv3 encapsulation
+
+
+
+
+[1]:atom-vs-l2tpv3.md
+
