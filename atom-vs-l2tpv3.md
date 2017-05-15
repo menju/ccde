@@ -2,23 +2,28 @@
 
 The next table summarizes the major differences between two L2 VPN VPLS solutions: AToM and L2TPv3.
 
+![l2vpn-tree][logo]
+
+[logo]:images/atom-vs-l2tpv3-map.png
+
+
 | | AToM | L2TPv3 |
 | - | - | - |
 | Underlying infrastructure requirements | MPLS | IP |
 | Supported L2 protocols | Ethernet, PPP, HDLC, FR, ATM | Ethernet, PPP, HDLC, FR, ATM |
 | Signaling protocol | Targeted LDP, out of band | L2TP, in band |
 | Transport protocol | MPLS | IPv4 (protocol #115) UDP (port #1701) |
-| Tunnel Type | 2 unidirectional LSPs (data) | 1 bidirectional (for control and data)| 
+| Tunnel Type | 2 unidirectional LSPs (data) | 1 bidirectional (for control and data)|
 | Tunnel Overhead | Short, 2 labels = 8 octets | Large (IPv4 and UDP) |
-| Control Message Authentication | TCP MD5 for LDP sessions | Shared secret message digest | 
-| Encryption | Can’t be directly encrypted with IPSec | Easy IPSec integration | 
-| Inter-AS | Hard. Inter-AS interconnection | Easy because the SP are already interconnected | 
+| Control Message Authentication | TCP MD5 for LDP sessions | Shared secret message digest |
+| Encryption | Can’t be directly encrypted with IPSec | Easy IPSec integration |
+| Inter-AS | Hard. Inter-AS interconnection | Easy because the SP are already interconnected |
 | Data path verification | MPLS ping, MPLS traceroute | IP ping, IP traceroute |
 | Scalability (Customer) | High | Medium |
-| Opex & Capex (Customer) | Low | Medium | 
+| Opex & Capex (Customer) | Low | Medium |
 | MTU | Need to match at both sides | Path MTU discovery |
 | QoS | MPLS-TE | IP DiffServ |
-| Cost | High | Low | 
+| Cost | High | Low |
 | Deployment Time | High (if not automated) | Low |
 | Resiliency | Very High, FRR | Medium |
 
@@ -34,12 +39,12 @@ L2TP only requires IP connectivity to provide L2 VPN services and for this reaso
 
 ## Supported L2 protocols
 
-Both options support Ethernet, PPP, HDLC, FR and ATM technologies. 
+Both options support Ethernet, PPP, HDLC, FR and ATM technologies.
 
 Nowadays, the most commonly AToM and L2TP transport Ethernet frames over MPLS or IP. There are two types of Ethernet support over AToM and L2TP:
 
-* Untagged Ethernet frames 
-* Tagged Ethernet frames (802.1Q frames) 
+* Untagged Ethernet frames
+* Tagged Ethernet frames (802.1Q frames)
 
 The untagged transport of Ethernet frames is also known as port mode whereas the Tagged mode is known as VLAN mode.
 
@@ -100,7 +105,7 @@ AToM service may not be available at every location when each location depends o
 
 ## Data path verification
 
-AToM needs MPLS ping and traceroute to verify the data plane. This is because the path the MPLS labeled packets follow may not be the same of the regular IP packets. 
+AToM needs MPLS ping and traceroute to verify the data plane. This is because the path the MPLS labeled packets follow may not be the same of the regular IP packets.
 
 
 ## MTU
@@ -115,6 +120,3 @@ AToM does not use IP as a transport, so the MTU must be carefully matched at bot
 AToM L2VPNs could make use of all the mechanisms enabled in the service provider core to increase the resiliency of the network.
 
 L2TPv3 is often deployed over public Internet connections, so the QoS and resiliency of the interconnection solution is very limited.
-
-
-
