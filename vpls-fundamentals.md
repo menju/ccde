@@ -124,6 +124,9 @@ To being able to link different VSI at different locations to a common Ethernet 
 
 The targeted LDP session it's used to implement MAC address withdrawal when a PE device removes a locally learned MAC address.
 
+![VPLS Control Data Plane](images/vpls-control-data-plane.png "VPLS Control Data Plane")
+
+
 
 # Data plane
 
