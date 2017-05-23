@@ -22,7 +22,7 @@ There are two fundamental scale limiting factors of plain or flat VPLS architect
 
 There is no hierarchical scalability in flat VPLS design because full mesh of directed LDP sessions is required between PE devices. That means that we need  ```(N*(N-1))/2``` PW for ```N``` PE devices in the network and that represents a lot of signaling overhead. Clearly that represents a scalability problem in the state of the control plane as the number of PE grows.
 
-![PW vs PE](hvpls-pws.png)
+![PW vs PE](images/hvpls-pws.png)
 
 Packet replication overhead is another scaling limiting factor of VPLS because packet replication consumes CPU resources and a lot of bandwidth may be needed to support any kind of packet replication (unknown unicast, multicast or broadcast) over the same physical interface.
 
@@ -97,11 +97,11 @@ Spoke PWs terminate on the VSI instances on the MTU-s and PE-rs.
 
 Packets to unknown destinations are replicated to all ports associated to the same VSI (local ACs and _the_ PW). Once MAC addresses are learned, switches the traffic locally, saving bandwidth in the path to the hub.
 
-![Bridging](h-vpls-bridging.png)
+![Bridging](images/h-vpls-bridging.png)
 
 If the MTU is directly connected to the PE-rs, other encapsulation techniques, like Ethernet QinQ may be used.
 
-![Bridging encapsulation](h-vpls-bridging-qinq.png)
+![Bridging encapsulation](images/h-vpls-bridging-qinq.png)
 
 Bridging capable spokes perform multiplexing of ACs in one unique PW per VSI instance and of multiple client VLANs when using QinQ encapsulation.
 
@@ -112,7 +112,7 @@ It needs to set up 1 point to point PW per AC that terminates on the VSI of the 
 
 No MAC address learning and frame replication on PE-r devices. All the traffic received on the AC is forwarded to the PE-rs via the PW. All the traffic received on the PW is forwarded to the corresponding AC. The traffic is NOT local switched at the PE-r, is forwarded to the PE-rs and switched there.
 
-![Non Bridging](h-vpls-non-bridging.png)
+![Non Bridging](images/h-vpls-non-bridging.png)
 
 
 > H-VPLS with non-bridging capable spokes has some advantages, like the capability of being able to offer VPLS service in conjunction with a routed service without the need of adding new devices or MTUs to the hierarchy.
@@ -128,7 +128,7 @@ No MAC address learning and frame replication on PE-r devices. All the traffic r
 If the service provider has an Ethernet network already deployed on the edge, this network could be used to provide to existing customers VPLS services.
 
 
-![Ethernet Edge](h-vpls-ethernet-edge.png)
+![Ethernet Edge](images/h-vpls-ethernet-edge.png)
 
 To avoid depending on customer VLAN tagging overlapping, 1 new VLAN tag (P-VLAN or Provider VLAN) is assigned per VPLS instance to non-multiplexed ACs. That assignment limits the number of VPLS instances per metro-ethernet island to the maximum number of different VLANs (4K).
 
