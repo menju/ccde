@@ -2,10 +2,10 @@
 
 ## Network Virtualization
 
-| Code | Session | Slides | Video |
-| :-: | :-: | :-: | :-: |
-| [BRKRST-2041][cod-2041] | [WAN Architectures and Design Principles (2016 Melbourne)][ses-2041-mel-2016] | [PPT][ppt-2041-mel-2016] | [VIDEO][vid-2041-mel-2016] |
-| [BRKRST-2041][cod-2041] | [WAN Architectures and Design Principles (2016 Melbourne)][ses-2041-mel-2016] | [PPT][ppt-2041-mel-2016] | [VIDEO][vid-2041-mel-2016] |
+| Code | Session | Slides | Video | Rank |
+| :-: | :-: | :-: | :-: | :-: |
+| [BRKRST-2041][cod-2041] | [WAN Architectures and Design Principles (2016 Melbourne)][ses-2041-mel-2016] | [PPT][ppt-2041-mel-2016] | [VIDEO][vid-2041-mel-2016] | :orange: |
+| [BRKRST-2041][cod-2041] | [WAN Architectures and Design Principles (2016 Berlin)][ses-2041-ber-2016] | [PPT][ppt-2041-ber-2016] | [VIDEO][vid-2041-ber-2016] | :green_apple: |
 
 
 
@@ -15,6 +15,9 @@
 [ses-2041-mel-2016]:https://www.ciscolive.com/online/connect/sessionDetail.ww?SESSION_ID=89930&backBtn=true
 [ppt-2041-mel-2016]:http://d2zmdbbm9feqrf.cloudfront.net/2016/anz/pdf/BRKRST-2041.pdf
 [vid-2041-mel-2016]:http://d2zmdbbm9feqrf.cloudfront.net/2016/anz/BRKRST-2041.mp4
+[ses-2041-ber-2016]:https://www.ciscolive.com/online/connect/sessionDetail.ww?SESSION_ID=89226&backBtn=true
+[ppt-2041-ber-2016]:http://d2zmdbbm9feqrf.cloudfront.net/2016/eur/pdf/BRKRST-2041.pdf
+[vid-2041-ber-2016]:http://d2zmdbbm9feqrf.cloudfront.net/2016/eur/BRKRST-2041.mp4
 
 
 
