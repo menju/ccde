@@ -85,8 +85,9 @@ When traffic engineering capabilities are mandatory or fast restoration services
 
 
 
+## LSPs _topology_
 
-
+![LSPs topology](images/ldp-vs-rsvp.png)
 
 
 
