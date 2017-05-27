@@ -15,8 +15,8 @@
 
 [cod-2033]:https://www.ciscolive.com/online/connect/search.ww?searchPhrase=BRKRST-2033
 [ses-2033-lon-2013]:https://www.ciscolive.com/online/connect/sessionDetail.ww?SESSION_ID=5928&backBtn=true
-[ppt-2033-lon-2013]:http://d2zmdbbm9feqrf.cloudfront.net/2013/eur/pdf/BRKRST-2033.pdf
-[vid-2033-lon-2013]:http://d2zmdbbm9feqrf.cloudfront.net/2013/eur/BRKRST-2033.mp4
+[ppt-2033-lon-2013]:http://d2zmdbbm9feqrf.cloudfront.net/2013/eur/pdf/BRKCRS-2033.pdf
+[vid-2033-lon-2013]:http://d2zmdbbm9feqrf.cloudfront.net/2013/eur/BRKCRS-2033.mp4
 
 
 
