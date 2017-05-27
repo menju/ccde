@@ -8,7 +8,7 @@ This repository contains a work in progress to cover some of the CCDE exam topic
 * [L2TPv3 encapsulation][2]
 * [VPLS fundamentals][3]
 * [H-VPLS fundamentals][4]
-* [LDP and RSVP][5]
+* [LDP vs RSVP][5]
 
 
 
