@@ -2,11 +2,11 @@
 
 ## Network Virtualization
 
-| Code | Session | Rank |
-| :-: | :-: | :-: |
-| [BRKCRS-2033][cod-2033] | Deploying a Virtualized Campus Network Infrastructure | :cloud: |
-| [BRKRST-2041][cod-2041] | WAN Architectures and Design Principles | :orange: |
-| [BRKRST-2045][cod-2045] | Network Virtualisation Design Concepts over the WAN  | :cloud: |
+| Code | Session | Rank | Location |
+| :-: | :-: | :-: | :-: |
+| [BRKCRS-2033][cod-2033] | Deploying a Virtualized Campus Network Infrastructure | :cloud: | - |
+| [BRKRST-2041][cod-2041] | WAN Architectures and Design Principles | :orange: | 2016 Berlin | 
+| [BRKRST-2045][cod-2045] | Network Virtualisation Design Concepts over the WAN  | :cloud: | 2017 Melbourne |
 
 
 
