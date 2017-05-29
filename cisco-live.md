@@ -2,21 +2,19 @@
 
 ## Network Virtualization
 
-| Code | Session | Slides | Video | Rank |
-| :-: | :-: | :-: | :-: | :-: |
-| [BRKCRS-2033][cod-2033] | [Deploying a Virtualized Campus Network Infrastructure (2013 London)][ses-2033-lon-2013] | [PPT][ppt-2033-lon-2013] | [VIDEO][vid-2033-lon-2013] | :cloud: |
-| [BRKRST-2041][cod-2041] | [WAN Architectures and Design Principles (2016 Melbourne)][ses-2041-mel-2016] | [PPT][ppt-2041-mel-2016] | [VIDEO][vid-2041-mel-2016] | :orange: |
-| [BRKRST-2041][cod-2041] | [WAN Architectures and Design Principles (2016 Berlin)][ses-2041-ber-2016] | [PPT][ppt-2041-ber-2016] | [VIDEO][vid-2041-ber-2016] | :green_apple: |
-| [BRKRST-2045][cod-2045] | [Network Virtualisation Design Concepts over the WAN (2014 Melbourne)][ses-2045-mel-2014] | [PPT][ppt-2045-mel-2014] | [VIDEO][vid-2045-mel-2014] | :cloud: |
+| Code | Session | Rank |
+| :-: | :-: | :-: |
+| [BRKCRS-2033][cod-2033] | Deploying a Virtualized Campus Network Infrastructure | :cloud: |
+| [BRKRST-2041][cod-2041] | WAN Architectures and Design Principles | :orange: |
+| [BRKRST-2045][cod-2045] | Network Virtualisation Design Concepts over the WAN  | :cloud: |
 
 
 
 
 
 [cod-2033]:https://www.ciscolive.com/online/connect/search.ww?searchPhrase=BRKRST-2033
-[ses-2033-lon-2013]:https://www.ciscolive.com/online/connect/sessionDetail.ww?SESSION_ID=5928&backBtn=true
-[ppt-2033-lon-2013]:http://d2zmdbbm9feqrf.cloudfront.net/2013/eur/pdf/BRKCRS-2033.pdf
-[vid-2033-lon-2013]:http://d2zmdbbm9feqrf.cloudfront.net/2013/eur/BRKCRS-2033.mp4
+
+
 
 
 
