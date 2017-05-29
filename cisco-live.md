@@ -2,21 +2,17 @@
 
 ## Network Virtualization
 
-| Code | Session | Rank | Location |
-| :-: | :-: | :-: | :-: |
-| [BRKCRS-2033][cod-2033] | Deploying a Virtualized Campus Network Infrastructure | :cloud: | - |
-| [BRKRST-2041][cod-2041] | WAN Architectures and Design Principles | :orange: | 2016 Berlin | 
-| [BRKRST-2045][cod-2045] | Network Virtualisation Design Concepts over the WAN  | :cloud: | 2017 Melbourne |
-
+| Code | Session | Location - Rank | 
+| :-: | :-: | :-: |
+| [BRKCRS-2033][cod-2033] | Deploying a Virtualized Campus Network Infrastructure | :cloud: |
+| [BRKRST-2041][cod-2041] | WAN Architectures and Design Principles | 2016 Berlin :orange:  | 
+| [BRKRST-2045][cod-2045] | Network Virtualisation Design Concepts over the WAN  | 2017 Melbourne :cloud: | 
 
 
 
 
 [cod-2033]:https://www.ciscolive.com/online/connect/search.ww?searchPhrase=BRKRST-2033
-
-
-
-
+[ses-2045-17-mel]:https://www.ciscolive.com/online/connect/sessionDetail.ww?SESSION_ID=94657&backBtn=true
 
 
 
@@ -38,9 +34,7 @@
 
 
 [cod-2045]:https://www.ciscolive.com/online/connect/search.ww?searchPhrase=BRKRST-2045
-[ses-2045-mel-2014]:https://www.ciscolive.com/online/connect/sessionDetail.ww?SESSION_ID=77818&backBtn=true
-[ppt-2045-mel-2014]:http://d2zmdbbm9feqrf.cloudfront.net/2014/anz/pdf/BRKRST-2045.pdf
-[vid-2045-mel-2014]:http://d2zmdbbm9feqrf.cloudfront.net/2014/anz/BRKRST-2045.mp4
+[ses-2045-17-mel]:https://www.ciscolive.com/online/connect/sessionDetail.ww?SESSION_ID=94657&backBtn=true
 
 
 
