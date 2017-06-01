@@ -2,7 +2,17 @@
 
 This repository contains a work in progress to cover some of the CCDE exam topics.
 
-## VPN
+
+## L3 control plane
+
+### Fast convergence
+
+* [IP FRR LFA][ip-frr]
+
+[ip-frr]:null
+
+
+## Network virtualization
 
 * [AToM vs L2TPv3][1]
 * [L2TPv3 encapsulation][2]
