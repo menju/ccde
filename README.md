@@ -8,9 +8,10 @@ This repository contains a work in progress to cover some of the CCDE exam topic
 ### Fast convergence
 
 * [IP FRR LFA][ip-frr]
+* [MPLS-TE FRR][mpls-te-frr]
 
 [ip-frr]:null
-
+[mpls-te-frr]:mpls-te-frr.md
 
 ## Network virtualization
 
