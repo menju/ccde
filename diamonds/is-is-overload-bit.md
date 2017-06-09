@@ -23,4 +23,4 @@ The overload bit has some aditional or expanded uses in design to avoid the crea
 
 # References
 
-http://www.cisco.com/c/en/us/support/docs/ip/integrated-intermediate-system-to-intermediate-system-is-is/24509-set-overload-bit.html
+[Uses of the Overload Bit with IS-IS](http://www.cisco.com/c/en/us/support/docs/ip/integrated-intermediate-system-to-intermediate-system-is-is/24509-set-overload-bit.html)
