@@ -3,8 +3,8 @@
 Overload bit is used to alert all the devices in a certain area by setting a particular bit in LSPs (link state packets):
 
 * A router runs out of system resources
-* It can not store LSDB
-* Run SPF
+* It can't store LSDB
+* It can't run SPF
 
 When this situation is detected by other routers, they **won't use this router for transit traffic**, but they will use it for packets destined to the overloaded router's directly connected networks and IP prefixes.
 
