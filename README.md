@@ -9,9 +9,11 @@ This repository contains a work in progress to cover some of the CCDE exam topic
 
 * [IP FRR LFA][ip-frr]
 * [MPLS-TE FRR][mpls-te-frr]
+* [Remote LFA][remote-lfa]
 
 [ip-frr]:null
 [mpls-te-frr]:mpls-te-frr.md
+[remote-lfa]:rlfa.md
 
 ## Network virtualization
 
