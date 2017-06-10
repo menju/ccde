@@ -21,7 +21,7 @@ MACsec is agnostic to the Ethernet traffic type and can be easily added to syste
 
 MACsec typically works in conjunction with IEEE 801.1X-2010 which provides the secure key distribution around the network.  
 
-![MACsec example][images/macsec-example.jpg]
+![MACsec example](images/macsec-example.jpg)
 
 But what happens when you want to protect your traffic using MACsec and that traffic has to go over a service provider’s network? Your devices will not be directly connected hence the intermediary devices will tamper with MACsec requirements.
 
